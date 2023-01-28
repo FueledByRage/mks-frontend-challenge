@@ -6,15 +6,15 @@ export const Header = styled.div`
     flex-direction: row;
     background: #0F52BA;
     align-items: center;
-    padding: 0 20px;
+    padding: 20px;
     justify-content: space-between;
-    min-height: 10vh;
+    max-height: 10vh;
     font-family: 'Montserrat';
 `;
 
 export const Checkout = styled.div`
-    width: 90px;
-    height: 45px;
+    width: 80px;
+    height: 40px;
     background: #FFFF;
     display: flex;
     flex-direction: row;
@@ -36,13 +36,10 @@ export const Logo = styled.div`
         font-size: 40px;
         line-height: 19px;
     }
-    h2{
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 20px;
-        align-self: flex-end;
+    .secondary{
+        font-size: 15px;
         line-height: 1;
+        align-self: flex-end;
         margin-left: 5px;
         margin-top: 8px;
     }

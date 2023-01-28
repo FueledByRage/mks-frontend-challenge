@@ -7,6 +7,6 @@ export const ProductList = styled.div`
     flex-wrap: wrap;
     justify-content: flex-start;
     min-height: 70vh;
-    width: 90%;
+    max-width: 60vw;
 `;
 

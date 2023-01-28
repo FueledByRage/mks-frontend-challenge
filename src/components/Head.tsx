@@ -15,7 +15,7 @@ export default function Head() {
     <Header>
         <Logo>
             <h1>MKS</h1>
-            <h2>Sistemas</h2>
+            <span className='secondary' >Sistemas</span>
         </Logo>
 
         <Checkout id='checkout' onClick={e => setOpen(!open)} >

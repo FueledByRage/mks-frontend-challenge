@@ -8,7 +8,7 @@ export const SelectRow = styled.div`
     margin-right: 5%; 
     color:  #373737;;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
 `
 export const CustomSelect = styled.select`
     padding: 0px 15px;

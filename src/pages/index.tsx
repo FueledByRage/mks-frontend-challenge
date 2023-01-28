@@ -8,6 +8,7 @@ import { useDispatch } from 'react-redux';
 import { useProducts } from '../utils/redux';
 import Skeleton from '../components/skeleton';
 import { CustomSelect, SelectRow } from '../styles/components/select';
+import Footer from '../components/footer';
 
 export default function HomePage() {
 
@@ -60,6 +61,7 @@ export default function HomePage() {
 
                 }
             </HomePageMain>
+            <Footer />
         </HomePageContainer>
     </>
   )

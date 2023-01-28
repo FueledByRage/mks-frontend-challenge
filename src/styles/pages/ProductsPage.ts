@@ -15,7 +15,7 @@ export const HomePageMain = styled.main`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 70vh;
     background: #E5E5E5;
 `;
 
@@ -23,7 +23,7 @@ export const ProductsList = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: start;
     min-height: 70vh;
-    width: 90%;
+    width: 80%;
 `;

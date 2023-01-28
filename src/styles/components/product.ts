@@ -4,13 +4,13 @@ import styled from "styled-components";
 export const ProductCard = styled.div`
     margin-top: 20px;
     font-family: 'Montserrat';
-    width: 210.56px;
-    height: 260px;
+    width: 205.56px;
+    height: 245px;
     display: flex;
     flex-direction: column;
     background: #FFFFFF;
     border-radius: 8px;
-    margin-left: 20px;
+    margin-left: 45px;
     justify-content: space-between;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
 `;
@@ -41,7 +41,7 @@ export const ProductDetails = styled.div`
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: #2C2C2C;
     line-height: 19px;
 `;
