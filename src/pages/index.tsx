@@ -28,6 +28,7 @@ export default function HomePage() {
                 registerCount = (count + 1 ) || 9;
                 dispatch( setProducts({ products }));
             } catch (error) {
+                console.error(error);
                 setError(true);
             }
         }
