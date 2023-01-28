@@ -12,6 +12,7 @@ export const fetchProducts = async ( perPage : string = '5' ) : Promise<IFetchPr
             const products = data.products as IProduct[] ;
             return resolve({ products, count : data.count });    
         } catch (error) {
+            console.log(error);
             reject(error);
         }
     })
